@@ -1,0 +1,18 @@
+# Python 3.13
+catboost==1.2.10
+lifelines==0.30.0
+matplotlib==3.11.2
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+scipy==1.18.1
+seaborn==0.13.2
+statsmodels==0.15.0
+# collector
+requests==2.34.2
+# notebook execution
+ipykernel==7.4.0
+nbconvert==7.17.2
+nbformat==5.11.1
+# PDF report (fallback when pandoc is not installed)
+markdown==3.11.2

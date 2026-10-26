@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest==9.1.1
+playwright==1.64.0   # headless-browser smoke test of the app (scripts/check_app.py)

@@ -1,0 +1,53 @@
+{
+  "itemId": "v1|100000000001|0",
+  "legacyItemId": "100000000001",
+  "title": "Apple Watch Series 9 45mm GPS + Cellular Midnight Aluminum Case Sport Band",
+  "shortDescription": "Excellent condition, battery health 98%.",
+  "price": {"value": "182.50", "currency": "USD"},
+  "currentBidPrice": {"value": "182.50", "currency": "USD"},
+  "bidCount": 14,
+  "uniqueBidderCount": 6,
+  "reservePriceMet": true,
+  "minimumPriceToBid": {"value": "185.00", "currency": "USD"},
+  "categoryPath": "Jewelry & Watches|Watches, Parts & Accessories|Watches|Smart Watches",
+  "categoryId": "178893",
+  "condition": "Used",
+  "conditionId": "3000",
+  "conditionDescription": "Light scratches on the case, screen is flawless.",
+  "itemLocation": {"city": "Aurora", "stateOrProvince": "Colorado", "postalCode": "800**", "country": "US"},
+  "image": {"imageUrl": "https://i.ebayimg.com/images/g/abc/s-l1600.jpg"},
+  "additionalImages": [
+    {"imageUrl": "https://i.ebayimg.com/images/g/abd/s-l1600.jpg"},
+    {"imageUrl": "https://i.ebayimg.com/images/g/abe/s-l1600.jpg"},
+    {"imageUrl": "https://i.ebayimg.com/images/g/abf/s-l1600.jpg"}
+  ],
+  "brand": "Apple",
+  "color": "Midnight",
+  "mpn": "MRMC3LL/A",
+  "itemCreationDate": "2026-10-14T18:02:11.000Z",
+  "itemEndDate": "2026-10-21T18:02:11.000Z",
+  "seller": {"username": "example_seller_a", "feedbackPercentage": "99.6", "feedbackScore": 2318, "sellerAccountType": "INDIVIDUAL"},
+  "estimatedAvailabilities": [{"deliveryOptions": ["SHIP_TO_HOME"], "estimatedAvailabilityStatus": "IN_STOCK", "estimatedAvailableQuantity": 1, "estimatedSoldQuantity": 0}],
+  "shippingOptions": [
+    {"shippingServiceCode": "USPS Ground Advantage", "type": "Standard Shipping", "shippingCost": {"value": "6.95", "currency": "USD"}, "shippingCostType": "FIXED"},
+    {"shippingServiceCode": "USPS Priority Mail", "type": "Expedited Shipping", "shippingCost": {"value": "11.40", "currency": "USD"}, "shippingCostType": "FIXED"}
+  ],
+  "shipToLocations": {"regionIncluded": [{"regionName": "United States", "regionType": "COUNTRY"}]},
+  "returnTerms": {"returnsAccepted": true, "refundMethod": "MONEY_BACK", "returnShippingCostPayer": "BUYER", "returnPeriod": {"value": 30, "unit": "CALENDAR_DAY"}},
+  "localizedAspects": [
+    {"type": "STRING", "name": "Brand", "value": "Apple"},
+    {"type": "STRING", "name": "Model", "value": "Apple Watch Series 9"},
+    {"type": "STRING", "name": "Case Size", "value": "45 mm"},
+    {"type": "STRING", "name": "Case Material", "value": "Aluminum"},
+    {"type": "STRING", "name": "Connectivity", "value": "Bluetooth, Cellular, GPS, Wi-Fi"},
+    {"type": "STRING", "name": "Color", "value": "Midnight"},
+    {"type": "STRING", "name": "Band Material", "value": "Fluoroelastomer"},
+    {"type": "STRING", "name": "MPN", "value": "MRMC3LL/A"}
+  ],
+  "description": "<div><p>Apple Watch Series 9, 45mm, GPS + Cellular.</p><p>Battery health <b>98%</b>. Includes charger.</p><script>var x=1;</script></div>",
+  "buyingOptions": ["AUCTION"],
+  "itemWebUrl": "https://www.ebay.com/itm/100000000001",
+  "topRatedBuyingExperience": false,
+  "lotSize": 0,
+  "quantityLimitPerBuyer": 1
+}

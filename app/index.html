@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><script>document.documentElement.dataset.theme=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")</script><meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Plated in Gold, Part II — From Asking to Selling</title>
+<meta name="description" content="A week of tracked eBay Apple Watch listings: what sells, for how much, and how fast.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<script src="data.js"></script>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<nav id="toc"><span class="brand">Plated in Gold · Part II</span><button id="themeToggle" class="theme" type="button" aria-pressed="false">☾ Dark mode</button>
+<a href="#headline">Headlines</a><a href="#asking">Asking vs sold</a><a href="#speed">Time to sale</a><a href="#gold">Gold</a><a href="#auctions">Auctions</a><a href="#models">Models</a><a href="#collection">The data</a><a href="#limits">Limitations</a><a href="report.pdf">PDF report</a></nav>
+<header class="hero" id="intro"><div class="wrap">
+<p class="eyebrow">Part II · A week of tracked eBay listings</p>
+<h1>Plated in Gold</h1>
+<h2>From asking to selling: which Apple Watches sell, for how much, and how fast</h2>
+<p class="lede"><a href="https://andrecdavis.github.io/Plated-In-Gold/">Part I</a> studied <b>asking prices</b> in a one-time snapshot of web-scraped listings, and found that aftermarket 24k gold plating made older models look more valuable than the newest Ultra. Part II tracks what <b>actually sells</b>: a collector polled the eBay Browse API for a week, following <b id="hN"></b> US Apple Watch listings from first sighting to their end, and recorded <b id="hSold"></b> completed sales.</p>
+<p class="caveat"><b>How to read this:</b> sale prices are the final auction bid or the listed price of a fixed-price listing whose sold counter went up. Accepted Best Offers are recorded at the listed price, so fixed-price sale prices are an upper bound. The collection window is one week, with <span id="hGaps"></span> of downtime.</p>
+<p class="links"><a class="btn" href="report.pdf">Read the PDF report</a> <a class="btn ghost" href="https://github.com/andrecdavis/Plated-In-Gold-Part-II">Code and data on GitHub</a> <a class="btn ghost" href="https://github.com/andrecdavis/Plated-In-Gold">Part I</a></p>
+</div></header>
+
+<section class="wrap" id="headline"><h3>Headline results</h3>
+<div class="cards" id="cards"></div>
+<div class="findings" id="findings"></div></section>
+
+<div class="filters" id="filters"><div class="wrap fl">
+<strong>Filters ▸</strong>
+<label>Model <select id="fModel"></select></label>
+<label>Condition <select id="fCond"></select></label>
+<label>Format <select id="fFmt"></select></label>
+<span id="fNote" class="pill"></span><button id="fReset" type="button">Reset</button></div></div>
+
+<section class="wrap" id="asking"><h3>1 · Asking is not selling</h3>
+<p id="tAsk"></p>
+<div id="askChart" class="chart tall"></div>
+<p class="cap">Median asking price of active listings and median sale price, by model, for the condition and format chosen above. Bars are the middle 50% of each. Models need at least 5 sales and 5 active listings. The selected model is highlighted.</p>
+<div id="ratioChart" class="chart"></div>
+<p class="cap">Median ask ÷ median sale price. Above 1× means sellers ask more than buyers pay. Hover for the 95% bootstrap interval of the median sale price.</p>
+<h4>Back to Part I</h4>
+<p id="tBridge"></p>
+<div id="bridgeChart" class="chart tall"></div>
+<p class="cap">Part I average asking price (web-scraped snapshot, all conditions) against Part II median sale price on eBay (all conditions). Different sources and dates, so read the gap as an order of magnitude, not a precise premium.</p></section>
+
+<section class="wrap" id="speed"><h3>2 · Priced right, sold fast</h3>
+<p id="tSpeed"></p>
+<div id="kmChart" class="chart tall"></div>
+<p class="cap">Kaplan–Meier estimate of the share sold over time, for fixed-price listings that started during the window, grouped by the opening ask relative to the median sale price for the same model and condition. Shaded bands are 95% intervals. Listings still up at the end, or that ended without a recorded sale, are censored.</p>
+<div class="tablewrap"><table id="kmTable"></table></div></section>
+
+<section class="wrap" id="gold"><h3>3 · The gold-plating pitfall, revisited</h3>
+<div class="callout"><div class="big" id="goldBig"></div><div id="goldTxt"></div></div>
+<p id="tGold1"></p>
+<div id="goldChart" class="chart tall"></div>
+<p class="cap">For each model with a gold-plated listing: median sale price and median ask of standard watches, and the median ask of 24k gold-plated listings. Log scale. The multiple is gold ask ÷ standard sale price. Number of gold listings in brackets.</p>
+<div class="grid2"><div id="goldAge" class="chart"></div><div id="goldSellers" class="chart"></div></div>
+<p id="tGold2"></p>
+<div class="note-box" id="tGold3"></div></section>
+
+<section class="wrap" id="auctions"><h3>4 · What makes an auction sell</h3>
+<p id="tAuc"></p>
+<div id="aucModel" class="chart tall"></div>
+<p class="cap">Share of ended auctions that sold, with 95% Wilson intervals, for the condition chosen above (models with at least 5 ended auctions). The dashed line is the overall rate.</p>
+<div class="grid2"><div id="aucFb" class="chart"></div><div id="aucShip" class="chart"></div></div>
+<p id="tAuc2"></p>
+<h4>Auction prices are set late</h4>
+<p id="tTraj"></p>
+<div id="trajChart" class="chart tall"></div>
+<p class="cap">Current bid as a share of the final price. The band is the middle 50% of sold auctions in each window before the end; thin lines are individual auctions (up to 40, filtered by model).</p></section>
+
+<section class="wrap" id="models"><h3>5 · Two models, explained</h3>
+<h4>Will this auction sell?</h4>
+<p id="tSale"></p>
+<div class="explorer"><div class="ctrl">
+<label>Model <select id="sModel"></select></label>
+<label>Condition <select id="sCond"></select></label>
+<label>Opening bid vs market <select id="sRatio"></select></label>
+<label>Free shipping <select id="sShip"><option value="yes">Yes</option><option value="no" selected>No</option></select></label>
+<label>Seller feedback score <select id="sFb"></select></label>
+<div class="info" id="sOut"></div></div>
+<div id="saleCurve" class="chart"></div></div>
+<p class="cap">Predicted chance that an auction with these settings ends in a sale, from the CatBoost classifier (other inputs held at typical values; weekday ending). The curve shows how the prediction changes with the opening bid. Out-of-fold probabilities above about 55% run high, so treat the top of the range as optimistic.</p>
+<div class="cards" id="saleCards"></div>
+<div class="grid2"><div id="saleRel" class="chart"></div><div id="saleImp" class="chart"></div></div>
+<h4>What would this watch sell for?</h4>
+<p id="tPrice"></p>
+<div class="explorer"><div class="ctrl">
+<label>Model <select id="pModel"></select></label>
+<label>Condition <select id="pCond"></select></label>
+<label>Format <select id="pFmt"></select></label>
+<label>Free shipping <select id="pShip"><option value="yes" selected>Yes</option><option value="no">No</option></select></label>
+<div class="info" id="pOut"></div></div>
+<div id="priceWf" class="chart tall"></div></div>
+<p class="cap">SHAP waterfall for the prediction: each bar is a feature's contribution in dollars, starting from the model's average prediction. Orange raises the prediction, blue lowers it. Case material, size and cellular are set to the most common values for the model.</p>
+<div class="cards" id="priceCards"></div>
+<div id="priceImp" class="chart"></div></section>
+
+<section class="wrap" id="collection"><h3>How the data was collected</h3>
+<p id="tCol"></p>
+<ol class="steps" id="steps"></ol>
+<div id="colChart" class="chart"></div>
+<p class="cap">API calls and listing observations per hour, Mountain Time. Shaded spans are collection gaps; no data was recorded in them. Spikes are the daily full sweeps.</p>
+<p id="tGaps"></p>
+<p id="tPrivacy"></p></section>
+
+<section class="wrap" id="limits"><h3>Limitations</h3><ul id="limitList"></ul></section>
+<section class="wrap" id="future"><h3>Future work</h3><ul>
+<li>Run the collector for several months without gaps, to measure seasonality and estimate time to sale for slow, high-priced listings, including the gold-plated ones.</li>
+<li>Track Best Offer acceptance directly, so fixed-price sale prices are exact rather than an upper bound.</li>
+<li>Store the buying options seen on each observation, so an auction's Best Offer and Buy It Now settings can be used as features without leaking the outcome.</li>
+<li>Add other marketplaces and compare clearing prices across them, closing the loop with Part I's multi-site snapshot.</li></ul></section>
+<footer><div class="wrap">Plated in Gold, Part II · Analysis and app by André Davis · <a href="https://github.com/andrecdavis/Plated-In-Gold-Part-II">View on GitHub</a> · <a href="report.pdf">PDF report</a> · <a href="https://andrecdavis.github.io/Plated-In-Gold/">Part I</a></div></footer>
+<script src="app.js"></script></body></html>

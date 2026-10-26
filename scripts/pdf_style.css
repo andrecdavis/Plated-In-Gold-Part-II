@@ -1,0 +1,28 @@
+/* Print stylesheet for scripts/make_pdf.py (US Letter). */
+@page {
+  size: Letter; margin: 0.75in 0.8in 0.8in;
+  @bottom-center { content: "Plated in Gold, Part II · André Davis · " counter(page) " / " counter(pages);
+                   font: 8pt "DejaVu Sans", Helvetica, Arial, sans-serif; color: #777; }
+}
+@page cover { margin: 0; @bottom-center { content: none; } }
+.cover { page: cover; break-after: page; height: 11in; width: 8.5in; overflow: hidden; }
+.cover img { width: 8.5in; height: 11in; display: block; }
+body { font: 10.5pt/1.55 "DejaVu Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #222; margin: 0; }
+header { border-bottom: 2px solid #B8860B; padding-bottom: 10pt; margin-bottom: 14pt; }
+header h1 { font-size: 21pt; line-height: 1.2; margin: 0 0 4pt; }
+header .author { font-size: 12pt; margin: 0 0 4pt; }
+header .links { font-size: 9.5pt; color: #555; margin: 0; }
+a { color: #2F5F8F; text-decoration: none; }
+h2 { font-size: 14.5pt; margin: 16pt 0 6pt; color: #222; border-bottom: 1px solid #ddd; padding-bottom: 2pt; }
+h3 { font-size: 12pt; margin: 12pt 0 4pt; }
+h2, h3 { break-after: avoid; } li { break-inside: avoid; }
+h2.newpage, h3.newpage { break-before: page; }
+p, li { orphans: 3; widows: 3; }
+blockquote { margin: 8pt 0; padding: 6pt 10pt; border-left: 3px solid #B8860B; background: #F7F5EF; }
+blockquote p { margin: 0; }
+table { border-collapse: collapse; margin: 8pt auto; font-size: 9pt; break-inside: avoid; }
+th, td { border: 1px solid #ccc; padding: 3pt 7pt; }
+th { background: #F0F1F3; }
+code { font-size: 8.5pt; background: #F3F3F5; padding: 0 3pt; border-radius: 3px; }
+.fig { text-align: center; break-inside: avoid; margin: 8pt 0; }
+.fig img { max-width: 94%; max-height: 4.5in; width: auto; height: auto; }

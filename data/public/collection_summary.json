@@ -1,0 +1,102 @@
+{
+ "listings": 31498,
+ "snapshots": 458087,
+ "outcomes": 3843,
+ "api_calls": 20399,
+ "api_calls_by_kind": {
+  "getItem": 18020,
+  "search": 2375,
+  "getItems": 4
+ },
+ "api_status": {
+  "200": 20205,
+  "404": 130,
+  "401": 7,
+  "403": 4
+ },
+ "sweeps": 7,
+ "sweep_items": [
+  25510,
+  25327,
+  25211,
+  24992,
+  25050,
+  26268,
+  26637
+ ],
+ "snapshots_by_source": {
+  "sweep": 219208,
+  "ending_soon": 142933,
+  "new_listings": 77997,
+  "detail": 9630,
+  "end_check": 7953,
+  "final_look": 366
+ },
+ "outcomes_by": [
+  {
+   "outcome": "ended_unknown",
+   "method": "browse_post_end",
+   "confidence": "low",
+   "n": 1265
+  },
+  {
+   "outcome": "ended_unknown",
+   "method": "disappeared",
+   "confidence": "low",
+   "n": 121
+  },
+  {
+   "outcome": "reserve_not_met",
+   "method": "browse_post_end",
+   "confidence": "high",
+   "n": 9
+  },
+  {
+   "outcome": "sold",
+   "method": "browse_post_end",
+   "confidence": "high",
+   "n": 1327
+  },
+  {
+   "outcome": "sold",
+   "method": "browse_post_end",
+   "confidence": "medium",
+   "n": 734
+  },
+  {
+   "outcome": "unsold",
+   "method": "browse_post_end",
+   "confidence": "high",
+   "n": 385
+  },
+  {
+   "outcome": "unsold",
+   "method": "last_observed",
+   "confidence": "low",
+   "n": 2
+  }
+ ],
+ "first_observation": "2026-10-19T18:01Z",
+ "last_observation": "2026-10-26T18:15Z",
+ "sellers": 20109,
+ "legacy_listings": 30978,
+ "detail_share": 0.3057336973776113,
+ "gaps": [
+  {
+   "start": "2026-10-19T18:25Z",
+   "end": "2026-10-19T21:00Z",
+   "hours": 2.58
+  },
+  {
+   "start": "2026-10-20T00:10Z",
+   "end": "2026-10-20T13:27Z",
+   "hours": 13.28
+  },
+  {
+   "start": "2026-10-21T03:41Z",
+   "end": "2026-10-22T14:54Z",
+   "hours": 35.22
+  }
+ ],
+ "brand_missing_share": 0.5934027557305226
+}

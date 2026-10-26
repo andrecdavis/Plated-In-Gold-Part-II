@@ -1,0 +1,187 @@
+{
+  "href": "https://api.ebay.com/buy/browse/v1/item_summary/search?category_ids=178893&limit=3&offset=0",
+  "total": 3,
+  "limit": 3,
+  "offset": 0,
+  "itemSummaries": [
+    {
+      "itemId": "v1|100000000001|0",
+      "legacyItemId": "100000000001",
+      "title": "Apple Watch Series 9 45mm GPS + Cellular Midnight Aluminum Case Sport Band",
+      "price": {
+        "value": "182.50",
+        "currency": "USD"
+      },
+      "currentBidPrice": {
+        "value": "182.50",
+        "currency": "USD"
+      },
+      "bidCount": 14,
+      "buyingOptions": [
+        "AUCTION"
+      ],
+      "condition": "Used",
+      "conditionId": "3000",
+      "seller": {
+        "username": "example_seller_a",
+        "feedbackPercentage": "99.6",
+        "feedbackScore": 2318,
+        "sellerAccountType": "INDIVIDUAL"
+      },
+      "itemLocation": {
+        "city": "Aurora",
+        "stateOrProvince": "Colorado",
+        "postalCode": "800**",
+        "country": "US"
+      },
+      "shippingOptions": [
+        {
+          "shippingServiceCode": "USPS Ground Advantage",
+          "type": "Standard Shipping",
+          "shippingCost": {
+            "value": "6.95",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        },
+        {
+          "shippingServiceCode": "USPS Priority Mail",
+          "type": "Expedited Shipping",
+          "shippingCost": {
+            "value": "11.40",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/abc/s-l1600.jpg"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/abd/s-l1600.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/abe/s-l1600.jpg"
+        },
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/abf/s-l1600.jpg"
+        }
+      ],
+      "itemCreationDate": "2026-10-14T18:02:11.000Z",
+      "itemEndDate": "2026-10-21T18:02:11.000Z",
+      "itemWebUrl": "https://www.ebay.com/itm/100000000001",
+      "shortDescription": "Excellent condition, battery health 98%.",
+      "topRatedBuyingExperience": false,
+      "categories": [
+        {
+          "categoryId": "178893",
+          "categoryName": "Smart Watches"
+        }
+      ],
+      "leafCategoryIds": [
+        "178893"
+      ]
+    },
+    {
+      "itemId": "v1|100000000002|0",
+      "legacyItemId": "100000000002",
+      "title": "Apple Watch Ultra 2 49mm Titanium Case Orange Alpine Loop - Brand New Sealed",
+      "price": {
+        "value": "649.00",
+        "currency": "USD"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE",
+        "BEST_OFFER"
+      ],
+      "condition": "New",
+      "conditionId": "1000",
+      "seller": {
+        "username": "example_seller_b",
+        "feedbackPercentage": "98.9",
+        "feedbackScore": 15422,
+        "sellerAccountType": "BUSINESS"
+      },
+      "itemLocation": {
+        "city": "Brooklyn",
+        "stateOrProvince": "New York",
+        "postalCode": "112**",
+        "country": "US"
+      },
+      "shippingOptions": [
+        {
+          "shippingServiceCode": "UPS Ground",
+          "type": "Standard Shipping",
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "USD"
+          },
+          "shippingCostType": "FIXED"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/xyz/s-l1600.jpg"
+      },
+      "additionalImages": [
+        {
+          "imageUrl": "https://i.ebayimg.com/images/g/xya/s-l1600.jpg"
+        }
+      ],
+      "itemCreationDate": "2026-09-30T12:44:51.000Z",
+      "itemWebUrl": "https://www.ebay.com/itm/100000000002",
+      "shortDescription": "Factory sealed, US model.",
+      "topRatedBuyingExperience": true,
+      "categories": [
+        {
+          "categoryId": "178893",
+          "categoryName": "Smart Watches"
+        }
+      ],
+      "leafCategoryIds": [
+        "178893"
+      ]
+    },
+    {
+      "itemId": "v1|100000000003|0",
+      "legacyItemId": "100000000003",
+      "title": "Apple Watch SE 2nd Gen 40mm GPS Starlight Aluminum - Good",
+      "price": {
+        "value": "89.99",
+        "currency": "USD"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "condition": "Pre-owned",
+      "conditionId": "3000",
+      "seller": {
+        "username": "example_seller_c",
+        "feedbackPercentage": "100.0",
+        "feedbackScore": 41
+      },
+      "itemLocation": {
+        "postalCode": "331**",
+        "country": "US"
+      },
+      "shippingOptions": [
+        {
+          "shippingCostType": "CALCULATED"
+        }
+      ],
+      "image": {
+        "imageUrl": "https://i.ebayimg.com/images/g/se1/s-l1600.jpg"
+      },
+      "itemCreationDate": "2026-10-17T03:15:00.000Z",
+      "itemWebUrl": "https://www.ebay.com/itm/100000000003",
+      "categories": [
+        {
+          "categoryId": "178893"
+        }
+      ],
+      "leafCategoryIds": [
+        "178893"
+      ]
+    }
+  ]
+}

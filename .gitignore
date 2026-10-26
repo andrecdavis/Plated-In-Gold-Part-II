@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+catboost_info/
+.DS_Store
+.venv/
+venv/
+*.egg-info/
+app/screenshots/*.tmp.png
+
+# credentials and private collection data (never published)
+.env
+.env.*
+!.env.example
+data/raw/
+data/logs/
+data/processed/
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# generated (rebuild with: make figures / make pdf)
+build/
+reports/*.pdf
+reports/*.html
+
+# macOS
+.DS_Store
+._*

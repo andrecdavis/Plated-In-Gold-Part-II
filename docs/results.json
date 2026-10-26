@@ -1,0 +1,1887 @@
+{
+ "overview": {
+  "listings": 31498,
+  "snapshots": 458087,
+  "outcomes": 3843,
+  "api_calls": 20399,
+  "api_calls_by_kind": {
+   "getItem": 18020,
+   "search": 2375,
+   "getItems": 4
+  },
+  "api_status": {
+   "200": 20205,
+   "404": 130,
+   "401": 7,
+   "403": 4
+  },
+  "sweeps": 7,
+  "sweep_items_min": 24992,
+  "sweep_items_max": 26637,
+  "snapshots_by_source": {
+   "sweep": 219208,
+   "ending_soon": 142933,
+   "new_listings": 77997,
+   "detail": 9630,
+   "end_check": 7953,
+   "final_look": 366
+  },
+  "outcomes_by": [
+   {
+    "outcome": "ended_unknown",
+    "method": "browse_post_end",
+    "confidence": "low",
+    "n": 1265
+   },
+   {
+    "outcome": "ended_unknown",
+    "method": "disappeared",
+    "confidence": "low",
+    "n": 121
+   },
+   {
+    "outcome": "reserve_not_met",
+    "method": "browse_post_end",
+    "confidence": "high",
+    "n": 9
+   },
+   {
+    "outcome": "sold",
+    "method": "browse_post_end",
+    "confidence": "high",
+    "n": 1327
+   },
+   {
+    "outcome": "sold",
+    "method": "browse_post_end",
+    "confidence": "medium",
+    "n": 734
+   },
+   {
+    "outcome": "unsold",
+    "method": "browse_post_end",
+    "confidence": "high",
+    "n": 385
+   },
+   {
+    "outcome": "unsold",
+    "method": "last_observed",
+    "confidence": "low",
+    "n": 2
+   }
+  ],
+  "start": "2026-10-19T18:01Z",
+  "end": "2026-10-26T18:15Z",
+  "window_hours": 168.233,
+  "gap_hours": 51.08,
+  "covered_share": 0.696374,
+  "sellers": 20109,
+  "detail_share": 0.305734,
+  "brand_missing_share": 0.593403,
+  "outcome_counts": {
+   "active": 27655,
+   "sold": 2063,
+   "ended_unknown": 1386,
+   "unsold": 385,
+   "reserve_not_met": 9
+  },
+  "format_counts": {
+   "Fixed price + Best Offer": 18991,
+   "Fixed price": 10910,
+   "Auction": 1597
+  },
+  "single_watch": 30441,
+  "analysis_listings": 28214,
+  "lots": 632,
+  "accessories": 343,
+  "other": 116,
+  "no_model": 1130,
+  "price_outliers": 868,
+  "gold": 299,
+  "bin_sales_reclassified": 2
+ },
+ "ask_used": [
+  {
+   "model": "Series 2",
+   "n_ask": 438,
+   "n_sold": 12,
+   "ask": 62.99,
+   "sold": 39.5,
+   "sold_lo": 24.715,
+   "sold_hi": 49.995,
+   "ratio": 1.59468,
+   "ratio_lo": 1.20014,
+   "ratio_hi": 2.6
+  },
+  {
+   "model": "Series 3",
+   "n_ask": 2284,
+   "n_sold": 81,
+   "ask": 75.0,
+   "sold": 35.0,
+   "sold_lo": 32.0,
+   "sold_hi": 39.0,
+   "ratio": 2.14286,
+   "ratio_lo": 1.87547,
+   "ratio_hi": 2.34375
+  },
+  {
+   "model": "Series 4",
+   "n_ask": 1018,
+   "n_sold": 50,
+   "ask": 89.0,
+   "sold": 45.25,
+   "sold_lo": 40.0,
+   "sold_hi": 50.0,
+   "ratio": 1.96685,
+   "ratio_lo": 1.70034,
+   "ratio_hi": 2.24975
+  },
+  {
+   "model": "Series 5",
+   "n_ask": 1252,
+   "n_sold": 51,
+   "ask": 100.0,
+   "sold": 56.99,
+   "sold_lo": 49.99,
+   "sold_hi": 60.0,
+   "ratio": 1.75469,
+   "ratio_lo": 1.66667,
+   "ratio_hi": 2.0004
+  },
+  {
+   "model": "Series 6",
+   "n_ask": 1323,
+   "n_sold": 80,
+   "ask": 119.95,
+   "sold": 65.0,
+   "sold_lo": 61.0,
+   "sold_hi": 69.99,
+   "ratio": 1.84538,
+   "ratio_lo": 1.70383,
+   "ratio_hi": 1.92061
+  },
+  {
+   "model": "Series 7",
+   "n_ask": 1427,
+   "n_sold": 121,
+   "ask": 140.0,
+   "sold": 80.75,
+   "sold_lo": 77.99,
+   "sold_hi": 86.0,
+   "ratio": 1.73375,
+   "ratio_lo": 1.59763,
+   "ratio_hi": 1.86261
+  },
+  {
+   "model": "Series 8",
+   "n_ask": 891,
+   "n_sold": 81,
+   "ask": 164.99,
+   "sold": 100.0,
+   "sold_lo": 94.95,
+   "sold_hi": 105.0,
+   "ratio": 1.6499,
+   "ratio_lo": 1.5311,
+   "ratio_hi": 1.77073
+  },
+  {
+   "model": "Series 9",
+   "n_ask": 699,
+   "n_sold": 107,
+   "ask": 200.0,
+   "sold": 130.0,
+   "sold_lo": 125.99,
+   "sold_hi": 138.0,
+   "ratio": 1.53846,
+   "ratio_lo": 1.43684,
+   "ratio_hi": 1.58743
+  },
+  {
+   "model": "Series 10",
+   "n_ask": 649,
+   "n_sold": 111,
+   "ask": 245.0,
+   "sold": 180.0,
+   "sold_lo": 175.0,
+   "sold_hi": 199.0,
+   "ratio": 1.36111,
+   "ratio_lo": 1.23083,
+   "ratio_hi": 1.41176
+  },
+  {
+   "model": "Series 11",
+   "n_ask": 404,
+   "n_sold": 80,
+   "ask": 276.995,
+   "sold": 229.995,
+   "sold_lo": 228.745,
+   "sold_hi": 239.995,
+   "ratio": 1.20435,
+   "ratio_lo": 1.13169,
+   "ratio_hi": 1.22604
+  },
+  {
+   "model": "Series 12",
+   "n_ask": 22,
+   "n_sold": 11,
+   "ask": 374.99,
+   "sold": 319.99,
+   "sold_lo": 299.99,
+   "sold_hi": 355.0,
+   "ratio": 1.17188,
+   "ratio_lo": 1.04079,
+   "ratio_hi": 1.26668
+  },
+  {
+   "model": "SE 1",
+   "n_ask": 2309,
+   "n_sold": 97,
+   "ask": 100.0,
+   "sold": 59.99,
+   "sold_lo": 54.99,
+   "sold_hi": 69.0,
+   "ratio": 1.66694,
+   "ratio_lo": 1.51515,
+   "ratio_hi": 1.81851
+  },
+  {
+   "model": "SE 2",
+   "n_ask": 618,
+   "n_sold": 67,
+   "ask": 100.0,
+   "sold": 80.0,
+   "sold_lo": 79.95,
+   "sold_hi": 89.99,
+   "ratio": 1.25,
+   "ratio_lo": 1.11123,
+   "ratio_hi": 1.31254
+  },
+  {
+   "model": "SE 3",
+   "n_ask": 152,
+   "n_sold": 48,
+   "ask": 169.99,
+   "sold": 149.485,
+   "sold_lo": 139.99,
+   "sold_hi": 159.495,
+   "ratio": 1.13717,
+   "ratio_lo": 1.0625,
+   "ratio_hi": 1.2143
+  },
+  {
+   "model": "Ultra 1",
+   "n_ask": 714,
+   "n_sold": 79,
+   "ask": 328.25,
+   "sold": 220.0,
+   "sold_lo": 210.0,
+   "sold_hi": 227.0,
+   "ratio": 1.49205,
+   "ratio_lo": 1.42222,
+   "ratio_hi": 1.59368
+  },
+  {
+   "model": "Ultra 2",
+   "n_ask": 634,
+   "n_sold": 63,
+   "ask": 389.99,
+   "sold": 315.0,
+   "sold_lo": 300.0,
+   "sold_hi": 329.99,
+   "ratio": 1.23806,
+   "ratio_lo": 1.17231,
+   "ratio_hi": 1.3082
+  },
+  {
+   "model": "Ultra 3",
+   "n_ask": 288,
+   "n_sold": 37,
+   "ask": 512.495,
+   "sold": 480.99,
+   "sold_lo": 470.0,
+   "sold_hi": 499.99,
+   "ratio": 1.0655,
+   "ratio_lo": 1.01401,
+   "ratio_hi": 1.10167
+  }
+ ],
+ "ask_new": [
+  {
+   "model": "Series 9",
+   "n_ask": 205,
+   "n_sold": 14,
+   "ask": 359.49,
+   "sold": 237.985,
+   "sold_lo": 200.0,
+   "sold_hi": 250.0,
+   "ratio": 1.51056,
+   "ratio_lo": 1.40008,
+   "ratio_hi": 1.79745
+  },
+  {
+   "model": "Series 10",
+   "n_ask": 163,
+   "n_sold": 14,
+   "ask": 360.0,
+   "sold": 274.995,
+   "sold_lo": 249.99,
+   "sold_hi": 289.5,
+   "ratio": 1.30911,
+   "ratio_lo": 1.23025,
+   "ratio_hi": 1.46159
+  },
+  {
+   "model": "Series 11",
+   "n_ask": 178,
+   "n_sold": 26,
+   "ask": 386.09,
+   "sold": 313.96,
+   "sold_lo": 299.0,
+   "sold_hi": 327.495,
+   "ratio": 1.22974,
+   "ratio_lo": 1.16778,
+   "ratio_hi": 1.31034
+  },
+  {
+   "model": "Series 12",
+   "n_ask": 95,
+   "n_sold": 24,
+   "ask": 614.93,
+   "sold": 389.99,
+   "sold_lo": 379.99,
+   "sold_hi": 407.34,
+   "ratio": 1.57678,
+   "ratio_lo": 1.48015,
+   "ratio_hi": 1.81001
+  },
+  {
+   "model": "SE 3",
+   "n_ask": 109,
+   "n_sold": 28,
+   "ask": 249.0,
+   "sold": 199.995,
+   "sold_lo": 197.495,
+   "sold_hi": 219.995,
+   "ratio": 1.24503,
+   "ratio_lo": 1.09589,
+   "ratio_hi": 1.26503
+  },
+  {
+   "model": "Ultra 3",
+   "n_ask": 126,
+   "n_sold": 10,
+   "ask": 689.995,
+   "sold": 595.185,
+   "sold_lo": 544.5,
+   "sold_hi": 669.97,
+   "ratio": 1.1593,
+   "ratio_lo": 1.03136,
+   "ratio_hi": 1.27325
+  }
+ ],
+ "ask_all": [
+  {
+   "model": "Series 1",
+   "n_ask": 960,
+   "n_sold": 19,
+   "ask": 49.0,
+   "sold": 40.0,
+   "sold_lo": 29.99,
+   "sold_hi": 99.99,
+   "ratio": 1.225,
+   "ratio_lo": 0.499191,
+   "ratio_hi": 1.66689
+  },
+  {
+   "model": "Series 2",
+   "n_ask": 639,
+   "n_sold": 15,
+   "ask": 56.51,
+   "sold": 49.99,
+   "sold_lo": 27.99,
+   "sold_hi": 70.0,
+   "ratio": 1.13043,
+   "ratio_lo": 0.606061,
+   "ratio_hi": 2.14362
+  },
+  {
+   "model": "Series 3",
+   "n_ask": 3209,
+   "n_sold": 101,
+   "ask": 65.0,
+   "sold": 35.0,
+   "sold_lo": 33.0,
+   "sold_hi": 44.0,
+   "ratio": 1.85714,
+   "ratio_lo": 1.53386,
+   "ratio_hi": 1.99971
+  },
+  {
+   "model": "Series 4",
+   "n_ask": 1396,
+   "n_sold": 63,
+   "ask": 85.0,
+   "sold": 49.99,
+   "sold_lo": 40.0,
+   "sold_hi": 58.0,
+   "ratio": 1.70034,
+   "ratio_lo": 1.44068,
+   "ratio_hi": 2.00023
+  },
+  {
+   "model": "Series 5",
+   "n_ask": 1632,
+   "n_sold": 59,
+   "ask": 100.0,
+   "sold": 59.0,
+   "sold_lo": 50.0,
+   "sold_hi": 61.0,
+   "ratio": 1.69492,
+   "ratio_lo": 1.63934,
+   "ratio_hi": 1.9998
+  },
+  {
+   "model": "Series 6",
+   "n_ask": 1972,
+   "n_sold": 120,
+   "ask": 115.0,
+   "sold": 65.495,
+   "sold_lo": 64.5,
+   "sold_hi": 73.99,
+   "ratio": 1.75586,
+   "ratio_lo": 1.57165,
+   "ratio_hi": 1.846
+  },
+  {
+   "model": "Series 7",
+   "n_ask": 1999,
+   "n_sold": 162,
+   "ask": 144.99,
+   "sold": 89.25,
+   "sold_lo": 82.6156,
+   "sold_hi": 95.49,
+   "ratio": 1.62454,
+   "ratio_lo": 1.47384,
+   "ratio_hi": 1.7699
+  },
+  {
+   "model": "Series 8",
+   "n_ask": 1392,
+   "n_sold": 119,
+   "ask": 175.0,
+   "sold": 105.0,
+   "sold_lo": 100.0,
+   "sold_hi": 110.0,
+   "ratio": 1.66667,
+   "ratio_lo": 1.5456,
+   "ratio_hi": 1.7999
+  },
+  {
+   "model": "Series 9",
+   "n_ask": 1356,
+   "n_sold": 165,
+   "ask": 220.0,
+   "sold": 139.99,
+   "sold_lo": 130.0,
+   "sold_hi": 149.99,
+   "ratio": 1.57154,
+   "ratio_lo": 1.48655,
+   "ratio_hi": 1.69231
+  },
+  {
+   "model": "Series 10",
+   "n_ask": 1072,
+   "n_sold": 170,
+   "ask": 269.435,
+   "sold": 200.0,
+   "sold_lo": 199.0,
+   "sold_hi": 219.99,
+   "ratio": 1.34718,
+   "ratio_lo": 1.19337,
+   "ratio_hi": 1.39248
+  },
+  {
+   "model": "Series 11",
+   "n_ask": 852,
+   "n_sold": 167,
+   "ask": 309.99,
+   "sold": 259.5,
+   "sold_lo": 249.99,
+   "sold_hi": 269.99,
+   "ratio": 1.19457,
+   "ratio_lo": 1.1236,
+   "ratio_hi": 1.27638
+  },
+  {
+   "model": "Series 12",
+   "n_ask": 157,
+   "n_sold": 47,
+   "ask": 499.99,
+   "sold": 369.99,
+   "sold_lo": 358.0,
+   "sold_hi": 384.99,
+   "ratio": 1.35136,
+   "ratio_lo": 1.19445,
+   "ratio_hi": 1.52984
+  },
+  {
+   "model": "SE 1",
+   "n_ask": 3510,
+   "n_sold": 140,
+   "ask": 115.0,
+   "sold": 69.495,
+   "sold_lo": 59.99,
+   "sold_hi": 70.995,
+   "ratio": 1.6548,
+   "ratio_lo": 1.57154,
+   "ratio_hi": 1.94182
+  },
+  {
+   "model": "SE 2",
+   "n_ask": 1001,
+   "n_sold": 117,
+   "ask": 119.99,
+   "sold": 90.0,
+   "sold_lo": 84.99,
+   "sold_hi": 99.85,
+   "ratio": 1.33322,
+   "ratio_lo": 1.17347,
+   "ratio_hi": 1.41193
+  },
+  {
+   "model": "SE 3",
+   "n_ask": 374,
+   "n_sold": 114,
+   "ask": 200.0,
+   "sold": 162.295,
+   "sold_lo": 159.99,
+   "sold_hi": 174.99,
+   "ratio": 1.23232,
+   "ratio_lo": 1.14289,
+   "ratio_hi": 1.30449
+  },
+  {
+   "model": "Ultra 1",
+   "n_ask": 1087,
+   "n_sold": 104,
+   "ask": 350.0,
+   "sold": 225.0,
+   "sold_lo": 219.478,
+   "sold_hi": 234.5,
+   "ratio": 1.55556,
+   "ratio_lo": 1.49254,
+   "ratio_hi": 1.63076
+  },
+  {
+   "model": "Ultra 2",
+   "n_ask": 1128,
+   "n_sold": 100,
+   "ask": 449.475,
+   "sold": 325.0,
+   "sold_lo": 315.0,
+   "sold_hi": 334.495,
+   "ratio": 1.383,
+   "ratio_lo": 1.30305,
+   "ratio_hi": 1.42852
+  },
+  {
+   "model": "Ultra 3",
+   "n_ask": 617,
+   "n_sold": 65,
+   "ask": 549.99,
+   "sold": 499.99,
+   "sold_lo": 480.99,
+   "sold_hi": 504.99,
+   "ratio": 1.1,
+   "ratio_lo": 1.08911,
+   "ratio_hi": 1.14345
+  },
+  {
+   "model": "Ultra 4",
+   "n_ask": 71,
+   "n_sold": 22,
+   "ask": 1049.0,
+   "sold": 712.495,
+   "sold_lo": 679.495,
+   "sold_hi": 749.99,
+   "ratio": 1.47229,
+   "ratio_lo": 1.03162,
+   "ratio_hi": 1.76599
+  }
+ ],
+ "bridge": [
+  {
+   "model": "Series 2",
+   "part1_mean_ask": 743.38,
+   "part1_median_ask": 699.0,
+   "part1_n": 25,
+   "part1_gold_share": 0.88,
+   "part1_mean_ask_no_gold": 615.0,
+   "part2_median_sold": 49.99,
+   "part2_n_sold": 15,
+   "part2_median_ask": 56.51,
+   "part2_n_ask": 639
+  },
+  {
+   "model": "Series 4",
+   "part1_mean_ask": 676.23,
+   "part1_median_ask": 699.0,
+   "part1_n": 43,
+   "part1_gold_share": 0.51,
+   "part1_mean_ask_no_gold": 549.95,
+   "part2_median_sold": 49.99,
+   "part2_n_sold": 63,
+   "part2_median_ask": 85.0,
+   "part2_n_ask": 1396
+  },
+  {
+   "model": "Series 3",
+   "part1_mean_ask": 664.19,
+   "part1_median_ask": 692.0,
+   "part1_n": 38,
+   "part1_gold_share": 0.42,
+   "part1_mean_ask_no_gold": 574.81,
+   "part2_median_sold": 35.0,
+   "part2_n_sold": 101,
+   "part2_median_ask": 65.0,
+   "part2_n_ask": 3209
+  },
+  {
+   "model": "Ultra 3",
+   "part1_mean_ask": 651.42,
+   "part1_median_ask": 649.0,
+   "part1_n": 341,
+   "part1_gold_share": 0.0,
+   "part1_mean_ask_no_gold": 651.42,
+   "part2_median_sold": 499.99,
+   "part2_n_sold": 65,
+   "part2_median_ask": 549.99,
+   "part2_n_ask": 617
+  },
+  {
+   "model": "Series 5",
+   "part1_mean_ask": 623.62,
+   "part1_median_ask": 550.0,
+   "part1_n": 49,
+   "part1_gold_share": 0.29,
+   "part1_mean_ask_no_gold": 535.56,
+   "part2_median_sold": 59.0,
+   "part2_n_sold": 59,
+   "part2_median_ask": 100.0,
+   "part2_n_ask": 1632
+  },
+  {
+   "model": "Series 0",
+   "part1_mean_ask": 591.49,
+   "part1_median_ask": 569.98,
+   "part1_n": 17,
+   "part1_gold_share": 0.0,
+   "part1_mean_ask_no_gold": 591.49,
+   "part2_median_sold": 40.0,
+   "part2_n_sold": 4,
+   "part2_median_ask": 50.0,
+   "part2_n_ask": 296
+  },
+  {
+   "model": "Series 6",
+   "part1_mean_ask": 577.85,
+   "part1_median_ask": 500.0,
+   "part1_n": 118,
+   "part1_gold_share": 0.14,
+   "part1_mean_ask_no_gold": 526.1,
+   "part2_median_sold": 65.495,
+   "part2_n_sold": 120,
+   "part2_median_ask": 115.0,
+   "part2_n_ask": 1972
+  },
+  {
+   "model": "Series 7",
+   "part1_mean_ask": 570.98,
+   "part1_median_ask": 500.0,
+   "part1_n": 129,
+   "part1_gold_share": 0.09,
+   "part1_mean_ask_no_gold": 534.77,
+   "part2_median_sold": 89.25,
+   "part2_n_sold": 162,
+   "part2_median_ask": 144.99,
+   "part2_n_ask": 1999
+  },
+  {
+   "model": "Series 11",
+   "part1_mean_ask": 569.34,
+   "part1_median_ask": 550.0,
+   "part1_n": 186,
+   "part1_gold_share": 0.0,
+   "part1_mean_ask_no_gold": 569.34,
+   "part2_median_sold": 259.5,
+   "part2_n_sold": 167,
+   "part2_median_ask": 309.99,
+   "part2_n_ask": 852
+  },
+  {
+   "model": "Ultra 2",
+   "part1_mean_ask": 569.0,
+   "part1_median_ask": 530.0,
+   "part1_n": 562,
+   "part1_gold_share": 0.0,
+   "part1_mean_ask_no_gold": 569.0,
+   "part2_median_sold": 325.0,
+   "part2_n_sold": 100,
+   "part2_median_ask": 449.475,
+   "part2_n_ask": 1128
+  },
+  {
+   "model": "Series 8",
+   "part1_mean_ask": 557.97,
+   "part1_median_ask": 500.0,
+   "part1_n": 116,
+   "part1_gold_share": 0.04,
+   "part1_mean_ask_no_gold": 538.1,
+   "part2_median_sold": 105.0,
+   "part2_n_sold": 119,
+   "part2_median_ask": 175.0,
+   "part2_n_ask": 1392
+  },
+  {
+   "model": "Ultra 1",
+   "part1_mean_ask": 553.93,
+   "part1_median_ask": 500.0,
+   "part1_n": 229,
+   "part1_gold_share": 0.0,
+   "part1_mean_ask_no_gold": 553.93,
+   "part2_median_sold": 225.0,
+   "part2_n_sold": 104,
+   "part2_median_ask": 350.0,
+   "part2_n_ask": 1087
+  },
+  {
+   "model": "Series 1",
+   "part1_mean_ask": 553.76,
+   "part1_median_ask": 500.0,
+   "part1_n": 13,
+   "part1_gold_share": 0.38,
+   "part1_mean_ask_no_gold": 507.5,
+   "part2_median_sold": 40.0,
+   "part2_n_sold": 19,
+   "part2_median_ask": 49.0,
+   "part2_n_ask": 960
+  },
+  {
+   "model": "Series 10",
+   "part1_mean_ask": 533.15,
+   "part1_median_ask": 500.0,
+   "part1_n": 196,
+   "part1_gold_share": 0.0,
+   "part1_mean_ask_no_gold": 533.15,
+   "part2_median_sold": 200.0,
+   "part2_n_sold": 170,
+   "part2_median_ask": 269.435,
+   "part2_n_ask": 1072
+  },
+  {
+   "model": "Series 9",
+   "part1_mean_ask": 519.21,
+   "part1_median_ask": 494.03,
+   "part1_n": 129,
+   "part1_gold_share": 0.02,
+   "part1_mean_ask_no_gold": 513.23,
+   "part2_median_sold": 139.99,
+   "part2_n_sold": 165,
+   "part2_median_ask": 220.0,
+   "part2_n_ask": 1356
+  },
+  {
+   "model": "SE 1",
+   "part1_mean_ask": 464.93,
+   "part1_median_ask": 450.0,
+   "part1_n": 21,
+   "part1_gold_share": 0.0,
+   "part1_mean_ask_no_gold": 464.93,
+   "part2_median_sold": 69.495,
+   "part2_n_sold": 140,
+   "part2_median_ask": 115.0,
+   "part2_n_ask": 3510
+  },
+  {
+   "model": "SE 3",
+   "part1_mean_ask": 444.24,
+   "part1_median_ask": 449.62,
+   "part1_n": 44,
+   "part1_gold_share": 0.0,
+   "part1_mean_ask_no_gold": 444.24,
+   "part2_median_sold": 162.295,
+   "part2_n_sold": 114,
+   "part2_median_ask": 200.0,
+   "part2_n_ask": 374
+  },
+  {
+   "model": "SE 2",
+   "part1_mean_ask": 396.62,
+   "part1_median_ask": 433.2,
+   "part1_n": 7,
+   "part1_gold_share": 0.0,
+   "part1_mean_ask_no_gold": 396.62,
+   "part2_median_sold": 90.0,
+   "part2_n_sold": 117,
+   "part2_median_ask": 119.99,
+   "part2_n_ask": 1001
+  }
+ ],
+ "gold": {
+  "n": 299,
+  "kinds": {
+   "Gold-plated watch": 292,
+   "Anodized watch, 24k parts": 5,
+   "Plating service, no watch": 1,
+   "Band only": 1
+  },
+  "ended": 0,
+  "sold": 0,
+  "n_sellers": 10,
+  "top_seller": 216,
+  "top_seller_share": 0.722408,
+  "top3_share": 0.949833,
+  "seller_counts": [
+   216,
+   35,
+   33,
+   5,
+   5,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "formats": {
+   "Fixed price + Best Offer": 290,
+   "Fixed price": 9
+  },
+  "gtc_share": 1.0,
+  "conditions": {
+   "New": 163,
+   "Open box": 129,
+   "Used": 6,
+   "Refurbished": 1
+  },
+  "median_ask": 1199.0,
+  "ask_q1": 881.02,
+  "ask_q3": 1699.0,
+  "min_ask": 199.0,
+  "max_ask": 4749.0,
+  "median_age_years": 4.12883,
+  "age_q1": 2.4547,
+  "age_q3": 6.11045,
+  "share_older_2y": 0.816054,
+  "median_ask_ratio": 8.24653,
+  "median_sold_ratio": 13.5424,
+  "plated_n": 286,
+  "lifetime_n": 297,
+  "lifetime_never": 0.451178,
+  "lifetime_median": 1.0,
+  "lifetime_total": 481,
+  "lifetime_per_year_median": 0.1489,
+  "comp_n": 2125,
+  "comp_never": 0.793412,
+  "comp_per_year_median": 0.0,
+  "comp_median_age": 2.28606,
+  "comp_median_ask": 405.0,
+  "window_comp_rate": 0.0106922,
+  "window_comp_n": 1777,
+  "window_expected": 3.05796,
+  "window_p_zero": 0.046216,
+  "window_pricey_n": 566,
+  "window_pricey_k": 0,
+  "models": {
+   "Series 9": 53,
+   "Series 7": 40,
+   "Series 8": 32,
+   "Series 6": 27,
+   "Series 4": 24,
+   "Series 2": 23,
+   "Series 5": 16,
+   "Ultra 3": 14,
+   "Series 3": 14,
+   "Ultra 2": 14,
+   "Ultra 4": 12,
+   "Series 10": 6,
+   "Series 1": 6,
+   "Series 12": 4,
+   "Ultra 1": 1
+  },
+  "by_model": [
+   {
+    "model": "Series 1",
+    "n": 6,
+    "median_ask": 667.01,
+    "plain_ask": 49.0,
+    "plain_sold": 40.0
+   },
+   {
+    "model": "Series 2",
+    "n": 23,
+    "median_ask": 699.0,
+    "plain_ask": 56.51,
+    "plain_sold": 49.99
+   },
+   {
+    "model": "Series 3",
+    "n": 14,
+    "median_ask": 782.01,
+    "plain_ask": 65.0,
+    "plain_sold": 35.0
+   },
+   {
+    "model": "Series 4",
+    "n": 24,
+    "median_ask": 799.0,
+    "plain_ask": 85.0,
+    "plain_sold": 49.99
+   },
+   {
+    "model": "Series 5",
+    "n": 16,
+    "median_ask": 899.0,
+    "plain_ask": 100.0,
+    "plain_sold": 59.0
+   },
+   {
+    "model": "Series 6",
+    "n": 27,
+    "median_ask": 999.0,
+    "plain_ask": 115.0,
+    "plain_sold": 65.495
+   },
+   {
+    "model": "Series 7",
+    "n": 40,
+    "median_ask": 1298.0,
+    "plain_ask": 144.99,
+    "plain_sold": 89.25
+   },
+   {
+    "model": "Series 8",
+    "n": 32,
+    "median_ask": 1299.0,
+    "plain_ask": 175.0,
+    "plain_sold": 105.0
+   },
+   {
+    "model": "Series 9",
+    "n": 53,
+    "median_ask": 1399.0,
+    "plain_ask": 220.0,
+    "plain_sold": 139.99
+   },
+   {
+    "model": "Series 10",
+    "n": 6,
+    "median_ask": 3449.0,
+    "plain_ask": 269.435,
+    "plain_sold": 200.0
+   },
+   {
+    "model": "Series 12",
+    "n": 4,
+    "median_ask": 3449.0,
+    "plain_ask": 499.99,
+    "plain_sold": 369.99
+   },
+   {
+    "model": "Ultra 1",
+    "n": 1,
+    "median_ask": 3999.0,
+    "plain_ask": 350.0,
+    "plain_sold": 225.0
+   },
+   {
+    "model": "Ultra 2",
+    "n": 14,
+    "median_ask": 3924.0,
+    "plain_ask": 449.475,
+    "plain_sold": 325.0
+   },
+   {
+    "model": "Ultra 3",
+    "n": 14,
+    "median_ask": 3999.0,
+    "plain_ask": 549.99,
+    "plain_sold": 499.99
+   },
+   {
+    "model": "Ultra 4",
+    "n": 12,
+    "median_ask": 3999.0,
+    "plain_ask": 1049.0,
+    "plain_sold": 712.495
+   }
+  ],
+  "multi_qty_share": 0.255892
+ },
+ "auctions": {
+  "n": 724,
+  "k": 373,
+  "rate": 0.515193,
+  "ci": [
+   0.478805,
+   0.551422
+  ],
+  "by_model": [
+   {
+    "model": "Series 0",
+    "k": 1,
+    "n": 6,
+    "rate": 0.166667,
+    "lo": 0.0300526,
+    "hi": 0.563509
+   },
+   {
+    "model": "Series 1",
+    "k": 4,
+    "n": 27,
+    "rate": 0.148148,
+    "lo": 0.0591583,
+    "hi": 0.324791
+   },
+   {
+    "model": "Series 2",
+    "k": 2,
+    "n": 11,
+    "rate": 0.181818,
+    "lo": 0.0513666,
+    "hi": 0.476986
+   },
+   {
+    "model": "Series 3",
+    "k": 26,
+    "n": 73,
+    "rate": 0.356164,
+    "lo": 0.256043,
+    "hi": 0.470667
+   },
+   {
+    "model": "Series 4",
+    "k": 16,
+    "n": 37,
+    "rate": 0.432432,
+    "lo": 0.286715,
+    "hi": 0.590861
+   },
+   {
+    "model": "Series 5",
+    "k": 13,
+    "n": 35,
+    "rate": 0.371429,
+    "lo": 0.231656,
+    "hi": 0.536634
+   },
+   {
+    "model": "Series 6",
+    "k": 26,
+    "n": 48,
+    "rate": 0.541667,
+    "lo": 0.402908,
+    "hi": 0.67425
+   },
+   {
+    "model": "Series 7",
+    "k": 32,
+    "n": 57,
+    "rate": 0.561404,
+    "lo": 0.432778,
+    "hi": 0.682275
+   },
+   {
+    "model": "Series 8",
+    "k": 26,
+    "n": 43,
+    "rate": 0.604651,
+    "lo": 0.455788,
+    "hi": 0.736349
+   },
+   {
+    "model": "Series 9",
+    "k": 22,
+    "n": 35,
+    "rate": 0.628571,
+    "lo": 0.463366,
+    "hi": 0.768344
+   },
+   {
+    "model": "Series 10",
+    "k": 41,
+    "n": 65,
+    "rate": 0.630769,
+    "lo": 0.509236,
+    "hi": 0.737708
+   },
+   {
+    "model": "Series 11",
+    "k": 26,
+    "n": 45,
+    "rate": 0.577778,
+    "lo": 0.433005,
+    "hi": 0.710315
+   },
+   {
+    "model": "Series 12",
+    "k": 5,
+    "n": 5,
+    "rate": 1.0,
+    "lo": 0.565509,
+    "hi": 1.0
+   },
+   {
+    "model": "SE 1",
+    "k": 38,
+    "n": 68,
+    "rate": 0.558824,
+    "lo": 0.440817,
+    "hi": 0.67054
+   },
+   {
+    "model": "SE 2",
+    "k": 29,
+    "n": 55,
+    "rate": 0.527273,
+    "lo": 0.397913,
+    "hi": 0.653071
+   },
+   {
+    "model": "SE 3",
+    "k": 13,
+    "n": 26,
+    "rate": 0.5,
+    "lo": 0.320603,
+    "hi": 0.679397
+   },
+   {
+    "model": "Ultra 1",
+    "k": 26,
+    "n": 45,
+    "rate": 0.577778,
+    "lo": 0.433005,
+    "hi": 0.710315
+   },
+   {
+    "model": "Ultra 2",
+    "k": 15,
+    "n": 26,
+    "rate": 0.576923,
+    "lo": 0.389483,
+    "hi": 0.744558
+   },
+   {
+    "model": "Ultra 3",
+    "k": 7,
+    "n": 12,
+    "rate": 0.583333,
+    "lo": 0.319507,
+    "hi": 0.806743
+   },
+   {
+    "model": "Ultra 4",
+    "k": 5,
+    "n": 5,
+    "rate": 1.0,
+    "lo": 0.565509,
+    "hi": 1.0
+   }
+  ],
+  "by_family": [
+   {
+    "family": "SE",
+    "k": 80,
+    "n": 149,
+    "rate": 0.536913,
+    "lo": 0.456926,
+    "hi": 0.615043
+   },
+   {
+    "family": "Series",
+    "k": 240,
+    "n": 487,
+    "rate": 0.492813,
+    "lo": 0.44864,
+    "hi": 0.537099
+   },
+   {
+    "family": "Ultra",
+    "k": 53,
+    "n": 88,
+    "rate": 0.602273,
+    "lo": 0.497805,
+    "hi": 0.698184
+   }
+  ],
+  "by_feedback": [
+   {
+    "feedback": "≤0",
+    "k": 7,
+    "n": 25,
+    "rate": 0.28,
+    "lo": 0.142837,
+    "hi": 0.47577
+   },
+   {
+    "feedback": "1–10",
+    "k": 22,
+    "n": 54,
+    "rate": 0.407407,
+    "lo": 0.28678,
+    "hi": 0.540334
+   },
+   {
+    "feedback": "11–100",
+    "k": 79,
+    "n": 146,
+    "rate": 0.541096,
+    "lo": 0.460247,
+    "hi": 0.619837
+   },
+   {
+    "feedback": "101–1k",
+    "k": 122,
+    "n": 251,
+    "rate": 0.486056,
+    "lo": 0.4249,
+    "hi": 0.547632
+   },
+   {
+    "feedback": "1k–10k",
+    "k": 38,
+    "n": 96,
+    "rate": 0.395833,
+    "lo": 0.303832,
+    "hi": 0.495851
+   },
+   {
+    "feedback": "10k+",
+    "k": 105,
+    "n": 152,
+    "rate": 0.690789,
+    "lo": 0.613371,
+    "hi": 0.758801
+   }
+  ],
+  "by_condition": [
+   {
+    "condition": "For parts",
+    "k": 52,
+    "n": 116,
+    "rate": 0.448276,
+    "lo": 0.360878,
+    "hi": 0.53899
+   },
+   {
+    "condition": "New",
+    "k": 17,
+    "n": 45,
+    "rate": 0.377778,
+    "lo": 0.251079,
+    "hi": 0.523703
+   },
+   {
+    "condition": "Open box",
+    "k": 16,
+    "n": 28,
+    "rate": 0.571429,
+    "lo": 0.390705,
+    "hi": 0.734917
+   },
+   {
+    "condition": "Used",
+    "k": 288,
+    "n": 535,
+    "rate": 0.538318,
+    "lo": 0.49595,
+    "hi": 0.580139
+   }
+  ],
+  "by_seller_listings": [
+   {
+    "seller_listings": "1",
+    "k": 204,
+    "n": 251,
+    "rate": 0.812749,
+    "lo": 0.759906,
+    "hi": 0.856163
+   },
+   {
+    "seller_listings": "2–3",
+    "k": 46,
+    "n": 268,
+    "rate": 0.171642,
+    "lo": 0.131218,
+    "hi": 0.221346
+   },
+   {
+    "seller_listings": "4–10",
+    "k": 30,
+    "n": 59,
+    "rate": 0.508475,
+    "lo": 0.384349,
+    "hi": 0.631564
+   },
+   {
+    "seller_listings": "11+",
+    "k": 93,
+    "n": 146,
+    "rate": 0.636986,
+    "lo": 0.556399,
+    "hi": 0.71055
+   }
+  ],
+  "new_gen": {
+   "k": 63,
+   "n": 100,
+   "ci": [
+    0.532203,
+    0.718178
+   ]
+  },
+  "series3": {
+   "k": 26,
+   "n": 73,
+   "ci": [
+    0.256043,
+    0.470667
+   ]
+  },
+  "new_vs_s3": {
+   "p1": 0.63,
+   "p2": 0.356164,
+   "diff": 0.273836,
+   "lo": 0.123253,
+   "hi": 0.407251,
+   "p": 0.00041521,
+   "n1": 100,
+   "n2": 73,
+   "k1": 63,
+   "k2": 26
+  },
+  "free_shipping": {
+   "p1": 0.616071,
+   "p2": 0.495908,
+   "diff": 0.120163,
+   "lo": 0.0195654,
+   "hi": 0.213709,
+   "p": 0.0234128,
+   "n1": 112,
+   "n2": 611,
+   "k1": 69,
+   "k2": 303
+  },
+  "feedback_trend": {
+   "coef": 0.213518,
+   "p": 0.000188332,
+   "n": 724
+  },
+  "leak_best_offer": {
+   "p1": 0.0410959,
+   "p2": 0.634948,
+   "diff": -0.593852,
+   "lo": -0.638032,
+   "hi": -0.533137,
+   "p": 1.7477e-43,
+   "n1": 146,
+   "n2": 578,
+   "k1": 6,
+   "k2": 367
+  },
+  "leak_best_offer_mean_bids": 0.0410959,
+  "adjusted": {
+   "free": {
+    "or_": 1.10504,
+    "lo": 0.685756,
+    "hi": 1.78069,
+    "p": 0.681574
+   },
+   "log_fb": {
+    "or_": 1.23965,
+    "lo": 1.09684,
+    "hi": 1.40107,
+    "p": 0.000581786
+   },
+   "new_gen": {
+    "or_": 1.76135,
+    "lo": 1.23666,
+    "hi": 2.50864,
+    "p": 0.00170589
+   }
+  },
+  "adjusted_n": 723,
+  "reserve": {
+   "n": 14,
+   "k": 2
+  },
+  "leak_bin": {
+   "p1": 0.416185,
+   "p2": 0.546279,
+   "diff": -0.130095,
+   "lo": -0.212009,
+   "hi": -0.0446991,
+   "p": 0.00303245,
+   "n1": 173,
+   "n2": 551,
+   "k1": 72,
+   "k2": 301
+  }
+ },
+ "fixed": {
+  "n": 2875,
+  "k": 1593,
+  "rate": 0.554087,
+  "by_format": [
+   {
+    "format": "Fixed price",
+    "k": 898,
+    "n": 1636,
+    "rate": 0.5489,
+    "lo": 0.5247,
+    "hi": 0.57287
+   },
+   {
+    "format": "Fixed price + Best Offer",
+    "k": 695,
+    "n": 1239,
+    "rate": 0.560936,
+    "lo": 0.533156,
+    "hi": 0.58834
+   }
+  ],
+  "free_shipping": {
+   "p1": 0.547561,
+   "p2": 0.562806,
+   "diff": -0.0152449,
+   "lo": -0.0518798,
+   "hi": 0.0215407,
+   "p": 0.425279,
+   "n1": 1640,
+   "n2": 1226,
+   "k1": 898,
+   "k2": 690
+  },
+  "medium_conf": 695
+ },
+ "trajectories": {
+  "table": [
+   {
+    "bin": "0–15 min",
+    "median": 0.967742,
+    "q1": 0.792,
+    "q3": 1.0,
+    "n": 197
+   },
+   {
+    "bin": "15 min–1 h",
+    "median": 0.917431,
+    "q1": 0.717172,
+    "q3": 1.0,
+    "n": 251
+   },
+   {
+    "bin": "1–3 h",
+    "median": 0.901639,
+    "q1": 0.67497,
+    "q3": 1.0,
+    "n": 295
+   },
+   {
+    "bin": "3–6 h",
+    "median": 0.867491,
+    "q1": 0.616334,
+    "q3": 0.987417,
+    "n": 275
+   },
+   {
+    "bin": "6–12 h",
+    "median": 0.832926,
+    "q1": 0.587013,
+    "q3": 0.969135,
+    "n": 250
+   },
+   {
+    "bin": "12–24 h",
+    "median": 0.808511,
+    "q1": 0.494024,
+    "q3": 0.953556,
+    "n": 255
+   },
+   {
+    "bin": "24–48 h",
+    "median": 0.755418,
+    "q1": 0.471429,
+    "q3": 0.943208,
+    "n": 265
+   },
+   {
+    "bin": "48–72 h",
+    "median": 0.706959,
+    "q1": 0.431838,
+    "q3": 0.944642,
+    "n": 198
+   },
+   {
+    "bin": "72 h+",
+    "median": 0.615385,
+    "q1": 0.368478,
+    "q3": 0.94822,
+    "n": 161
+   }
+  ],
+  "n_auctions": 373,
+  "late_n": 197,
+  "late_median_jump": 0.0333333,
+  "late_jump_ci": [
+   0.0157729,
+   0.0615385
+  ],
+  "late_rose_share": 0.588832,
+  "at_48_72": 0.706959,
+  "at_1_3": 0.901639,
+  "final_bids_median": 10.0
+ },
+ "repricing": {
+  "n": 26571,
+  "changed": 0.0977758,
+  "cut": 0.0763614,
+  "raised": 0.0187046,
+  "median_cut": -0.0566415
+ },
+ "survival": {
+  "n": 2312,
+  "events": 461,
+  "table": [
+   {
+    "position": "Below 90%",
+    "n": 337,
+    "events": 122,
+    "sold_24h": 0.284028,
+    "sold_24h_lo": 0.235765,
+    "sold_24h_hi": 0.339775,
+    "sold_72h": 0.405636,
+    "sold_72h_lo": 0.348759,
+    "sold_72h_hi": 0.468007,
+    "sold_120h": 0.469158,
+    "sold_120h_lo": 0.403657,
+    "sold_120h_hi": 0.539678
+   },
+   {
+    "position": "90–110%",
+    "n": 714,
+    "events": 210,
+    "sold_24h": 0.165376,
+    "sold_24h_lo": 0.138482,
+    "sold_24h_hi": 0.196868,
+    "sold_72h": 0.302042,
+    "sold_72h_lo": 0.264989,
+    "sold_72h_hi": 0.342962,
+    "sold_120h": 0.392484,
+    "sold_120h_lo": 0.347694,
+    "sold_120h_hi": 0.44086
+   },
+   {
+    "position": "110–150%",
+    "n": 761,
+    "events": 97,
+    "sold_24h": 0.0586663,
+    "sold_24h_lo": 0.043504,
+    "sold_24h_hi": 0.0788911,
+    "sold_72h": 0.130646,
+    "sold_72h_lo": 0.105748,
+    "sold_72h_hi": 0.160859,
+    "sold_120h": 0.17112,
+    "sold_120h_lo": 0.14035,
+    "sold_120h_hi": 0.207779
+   },
+   {
+    "position": "Above 150%",
+    "n": 500,
+    "events": 32,
+    "sold_24h": 0.033035,
+    "sold_24h_lo": 0.0200316,
+    "sold_24h_hi": 0.0542427,
+    "sold_72h": 0.0688565,
+    "sold_72h_lo": 0.0474299,
+    "sold_72h_hi": 0.0994448,
+    "sold_120h": 0.0832828,
+    "sold_120h_lo": 0.0578632,
+    "sold_120h_hi": 0.119142
+   }
+  ],
+  "logrank_p": 8.71094e-49,
+  "sold_72h": 0.206827,
+  "ended_unknown": 247
+ },
+ "sellers": {
+  "n_sellers": 20109,
+  "top10_listing_share": 0.0736872,
+  "top10_sales_share": 0.105671,
+  "single_listing_sellers": 17787,
+  "largest": 341
+ },
+ "sale_model": {
+  "platt": [
+   0.648982,
+   -0.28446
+  ],
+  "reliability_cal": [
+   {
+    "predicted": 0.185214,
+    "observed": 0.133333,
+    "n": 105,
+    "lo": 0.0811132,
+    "hi": 0.211437
+   },
+   {
+    "predicted": 0.268825,
+    "observed": 0.219048,
+    "n": 105,
+    "lo": 0.15063,
+    "hi": 0.307298
+   },
+   {
+    "predicted": 0.324912,
+    "observed": 0.371429,
+    "n": 105,
+    "lo": 0.285077,
+    "hi": 0.466856
+   },
+   {
+    "predicted": 0.398187,
+    "observed": 0.52381,
+    "n": 105,
+    "lo": 0.429137,
+    "hi": 0.616802
+   },
+   {
+    "predicted": 0.615939,
+    "observed": 0.514286,
+    "n": 105,
+    "lo": 0.419883,
+    "hi": 0.60768
+   }
+  ],
+  "metrics": {
+   "n": 525,
+   "events": 185,
+   "base_rate": 0.352381,
+   "sellers": 387,
+   "auc": 0.68961,
+   "auc_ci": [
+    0.645272,
+    0.733877
+   ],
+   "auc_folds": [
+    0.629456,
+    0.763024,
+    0.637354,
+    0.729531,
+    0.721259
+   ],
+   "auc_logit": 0.590612,
+   "auc_logit_ci": [
+    0.541527,
+    0.638718
+   ],
+   "brier": 0.215726,
+   "brier_cal": 0.216929,
+   "calibration_cal": {
+    "intercept": -0.182039,
+    "slope": 0.726662
+   },
+   "auc_cal": 0.68527,
+   "brier_logit": 0.256691,
+   "brier_base": 0.228209,
+   "logloss": 0.621109,
+   "calibration": {
+    "intercept": -0.28431,
+    "slope": 0.649141
+   }
+  },
+  "expected": -0.691081,
+  "importance": {
+   "start_vs_market": 0.409943,
+   "seller_feedback_score": 0.261114,
+   "model": 0.132755,
+   "duration_days": 0.101026,
+   "end_hour": 0.0941082,
+   "case_size": 0.0932355,
+   "end_weekend": 0.0721034,
+   "shipping_cost": 0.0713366,
+   "condition_group": 0.0407239,
+   "seller_feedback_pct": 0.0200246,
+   "image_count": 0.00829053,
+   "cellular": 0.00406267,
+   "returns_accepted": 0.00307146,
+   "has_reserve": 0.00107571,
+   "free_shipping": 0.0,
+   "top_rated_buying": 0.0
+  },
+  "reliability": [
+   {
+    "predicted": 0.153587,
+    "observed": 0.104762,
+    "n": 105,
+    "lo": 0.0595103,
+    "hi": 0.177914
+   },
+   {
+    "predicted": 0.249832,
+    "observed": 0.257143,
+    "n": 105,
+    "lo": 0.183158,
+    "hi": 0.348271
+   },
+   {
+    "predicted": 0.331188,
+    "observed": 0.380952,
+    "n": 105,
+    "lo": 0.293824,
+    "hi": 0.476485
+   },
+   {
+    "predicted": 0.453347,
+    "observed": 0.466667,
+    "n": 105,
+    "lo": 0.37411,
+    "hi": 0.561577
+   },
+   {
+    "predicted": 0.700605,
+    "observed": 0.552381,
+    "n": 105,
+    "lo": 0.457095,
+    "hi": 0.643969
+   }
+  ],
+  "reliability_logit": [
+   {
+    "predicted": 0.110358,
+    "observed": 0.2,
+    "n": 105,
+    "lo": 0.134698,
+    "hi": 0.286479
+   },
+   {
+    "predicted": 0.230088,
+    "observed": 0.32381,
+    "n": 105,
+    "lo": 0.241899,
+    "hi": 0.418158
+   },
+   {
+    "predicted": 0.321283,
+    "observed": 0.419048,
+    "n": 105,
+    "lo": 0.329165,
+    "hi": 0.514645
+   },
+   {
+    "predicted": 0.440138,
+    "observed": 0.438095,
+    "n": 105,
+    "lo": 0.347042,
+    "hi": 0.533518
+   },
+   {
+    "predicted": 0.70699,
+    "observed": 0.380952,
+    "n": 105,
+    "lo": 0.293824,
+    "hi": 0.476485
+   }
+  ],
+  "partial": [
+   {
+    "ratio": 0.25,
+    "prob": 0.476381
+   },
+   {
+    "ratio": 0.5,
+    "prob": 0.453511
+   },
+   {
+    "ratio": 0.75,
+    "prob": 0.411492
+   },
+   {
+    "ratio": 0.9,
+    "prob": 0.377148
+   },
+   {
+    "ratio": 1.0,
+    "prob": 0.364782
+   },
+   {
+    "ratio": 1.1,
+    "prob": 0.351047
+   },
+   {
+    "ratio": 1.25,
+    "prob": 0.322028
+   },
+   {
+    "ratio": 1.5,
+    "prob": 0.267685
+   },
+   {
+    "ratio": 2.0,
+    "prob": 0.244624
+   },
+   {
+    "ratio": 3.0,
+    "prob": 0.213435
+   }
+  ]
+ },
+ "price_model": {
+  "metrics": {
+   "n": 1873,
+   "sellers": 1196,
+   "r2": 0.903372,
+   "mae": 28.1759,
+   "median_ae": 19.3805,
+   "r2_base": 0.86829,
+   "mae_base": 28.9906,
+   "mape_median": 0.147181
+  },
+  "expected": 172.439,
+  "importance": {
+   "model": 53.1538,
+   "condition_group": 30.4705,
+   "material": 19.7193,
+   "case_size": 16.2777,
+   "titanium": 11.4655,
+   "format": 4.7548,
+   "seller_feedback_score": 2.48209,
+   "premium_band": 1.32786,
+   "shipping_cost": 1.15535,
+   "free_shipping": 0.838389,
+   "seller_listings": 0.772475,
+   "cellular": 0.704522,
+   "detail": 0.585345,
+   "image_count": 0.344179,
+   "hermes": 0.26886,
+   "us_location": 0.0130046,
+   "returns_accepted": 0.00550166,
+   "top_rated_buying": 0.0
+  },
+  "format_shap": [
+   {
+    "mean": -13.7913,
+    "size": 307
+   },
+   {
+    "mean": 3.7175,
+    "size": 886
+   },
+   {
+    "mean": 2.016,
+    "size": 680
+   }
+  ]
+ }
+}
